@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Stride It</title>
+  <meta name="description" content="Stride It support page. Get help, read the FAQ, and contact us." />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Support-specific layout helpers */
+    .support-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .support-col { display: grid; gap: 24px; }
+
+    @media (max-width: 860px) {
+      .support-layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+          <img src="img/logo.png" alt="Stride It logo" />
+          <span class="nav-logo-name">Stride It</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Support Hero ────────────────────────────────────────── -->
+  <section class="support-hero">
+    <div class="container">
+      <span class="badge" style="margin-bottom:20px;">
+        <span class="badge-dot"></span>
+        Support Center
+      </span>
+      <h1 class="section-title" style="font-size:clamp(36px,5vw,60px);">
+        How can we <span class="grad-text">help?</span>
+      </h1>
+      <p class="section-lead" style="margin:0 auto;text-align:center;">
+        Everything you need to get Stride It running smoothly on your iPhone and Apple Watch.
+      </p>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── Support Sections ────────────────────────────────────── -->
+  <section class="support-sections" id="support">
+    <div class="container">
+      <div class="support-layout">
+
+        <!-- Left column: App info + Contact -->
+        <div class="support-col">
+
+          <!-- App info card -->
+          <div class="card app-info-card">
+            <div class="app-info-logo">
+              <img src="img/logo.png" alt="Stride It icon" />
+            </div>
+            <div class="app-info-text">
+              <h2>Stride It</h2>
+              <p>
+                Your Apple Watch step tracker designed for every level of walker — from beginners to daily movers. Track steps, hit goals, and make every walk count.
+              </p>
+              <div class="app-info-tags">
+                <span class="tag">Health & Fitness</span>
+                <span class="tag">Apple Watch</span>
+                <span class="tag">iOS 17+</span>
+                <span class="tag">watchOS 10+</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- What's included card -->
+          <div class="card">
+            <p class="section-eyebrow" style="margin-bottom:16px;">What's Included</p>
+            <ul style="list-style:none;display:grid;gap:14px;">
+              <li style="display:flex;gap:12px;align-items:flex-start;">
+                <span style="color:var(--mint);font-size:16px;margin-top:1px;">✓</span>
+                <div>
+                  <strong style="font-size:14px;display:block;margin-bottom:2px;font-family:var(--font-head);">Apple Watch app</strong>
+                  <span style="font-size:13px;color:var(--text-sub);">Real-time step tracking directly on your wrist. The source of truth for your daily steps.</span>
+                </div>
+              </li>
+              <li style="display:flex;gap:12px;align-items:flex-start;">
+                <span style="color:var(--mint);font-size:16px;margin-top:1px;">✓</span>
+                <div>
+                  <strong style="font-size:14px;display:block;margin-bottom:2px;font-family:var(--font-head);">iPhone companion app</strong>
+                  <span style="font-size:13px;color:var(--text-sub);">See your daily step headline, monthly distance, and fun world-distance trivia at a glance.</span>
+                </div>
+              </li>
+              <li style="display:flex;gap:12px;align-items:flex-start;">
+                <span style="color:var(--mint);font-size:16px;margin-top:1px;">✓</span>
+                <div>
+                  <strong style="font-size:14px;display:block;margin-bottom:2px;font-family:var(--font-head);">Widgets</strong>
+                  <span style="font-size:13px;color:var(--text-sub);">Home screen and lock screen widgets that keep your step count visible at all times.</span>
+                </div>
+              </li>
+              <li style="display:flex;gap:12px;align-items:flex-start;">
+                <span style="color:var(--mint);font-size:16px;margin-top:1px;">✓</span>
+                <div>
+                  <strong style="font-size:14px;display:block;margin-bottom:2px;font-family:var(--font-head);">Watch Complications</strong>
+                  <span style="font-size:13px;color:var(--text-sub);">Circular and banner complications for your watch face so your goal is always one glance away.</span>
+                </div>
+              </li>
+              <li style="display:flex;gap:12px;align-items:flex-start;">
+                <span style="color:var(--mint);font-size:16px;margin-top:1px;">✓</span>
+                <div>
+                  <strong style="font-size:14px;display:block;margin-bottom:2px;font-family:var(--font-head);">Smart Notifications</strong>
+                  <span style="font-size:13px;color:var(--text-sub);">Daily reminders at 7 AM, 12 PM, and 5:30 PM with your remaining step count.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact card -->
+          <div id="contact">
+            <p class="section-eyebrow" style="margin-bottom:16px;">Get in Touch</p>
+            <div class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-info">
+                <h3>Email Support</h3>
+                <a href="mailto:support@strideit.app">support@strideit.app</a>
+                <p style="font-size:12px;color:var(--muted);margin-top:4px;">We typically respond within 24–48 hours.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right column: FAQ -->
+        <div class="support-col" id="faq">
+          <div>
+            <p class="section-eyebrow" style="margin-bottom:20px;">FAQ</p>
+            <div class="faq-list">
+
+              <details class="faq-item">
+                <summary>
+                  Do I need an Apple Watch to use Stride It?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>Yes. Stride It uses your Apple Watch as the primary step-tracking sensor. The iPhone companion app displays your data and provides insights, but the Watch app must be installed on your wrist to record steps.</p>
+                  <p>Compatible with Apple Watch Series 4 and later running watchOS 10 or above.</p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  How do I install the app on my Apple Watch?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>After downloading Stride It on your iPhone, open the <strong>Watch</strong> app on your iPhone, scroll to find Stride It under <em>Available Apps</em>, and tap <strong>Install</strong>. Once installed, the Stride It app will appear on your Apple Watch.</p>
+                  <p>You can also follow the in-app onboarding wizard — it guides you through this process step by step.</p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  Why are my widgets not updating?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>iOS controls when widgets refresh based on battery level and usage patterns. To help widgets update more reliably:</p>
+                  <ul>
+                    <li>Make sure Background App Refresh is enabled for Stride It in <strong>Settings → Stride It</strong>.</li>
+                    <li>Keep your iPhone and Apple Watch within Bluetooth range regularly throughout the day.</li>
+                    <li>Opening the app briefly will always force an immediate widget update.</li>
+                  </ul>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  Does Stride It use HealthKit?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>Yes. Stride It reads step data from Apple HealthKit, which aggregates data from your Apple Watch. We request read-only access to your step count. No personal data is stored on external servers — everything stays on your device and in your iCloud account.</p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  When do step counts reset?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>Step counts reset automatically at midnight (12:00 AM) according to your iPhone's local time zone, following Apple HealthKit's standard daily cycle. No extra configuration is needed.</p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  Can I change the app language?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>Yes. Stride It defaults to the language of your device's region, but you can override it at any time. Go to the <strong>Settings</strong> tab inside the app and choose your preferred language from the list.</p>
+                  <p>Currently supported languages: English and Spanish.</p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  How do I turn off or customize notifications?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>Stride It sends three daily reminders (7 AM, 12 PM, and 5:30 PM) with your remaining step count for the day. To manage or disable them, go to <strong>iOS Settings → Notifications → Stride It</strong>.</p>
+                  <p>Notifications also appear on your Apple Watch when it is on your wrist.</p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  What is the step goal? Can I change it?
+                  <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </summary>
+                <div class="faq-answer">
+                  <p>The default daily goal is 8,800 steps — a research-backed target shown to deliver meaningful cardiovascular benefits. You can update your personal goal from the <strong>Settings</strong> tab in the app.</p>
+                </div>
+              </details>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="Stride It" />
+          <span>Stride It</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="footer-copy">© 2026 Stride It. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
