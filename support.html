@@ -3,8 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support — Stride It</title>
-  <meta name="description" content="Stride It support page. Get help, read the FAQ, and contact us." />
+
+  <!-- Primary SEO -->
+  <title>Support & FAQ — Stride It</title>
+  <meta name="description" content="Get help with Stride It, the Apple Watch step tracker. Find answers to frequently asked questions and contact our support team." />
+  <meta name="author" content="Stride It" />
+  <link rel="canonical" href="https://strideit.app/support.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://strideit.app/support.html" />
+  <meta property="og:site_name" content="Stride It" />
+  <meta property="og:title" content="Support & FAQ — Stride It" />
+  <meta property="og:description" content="Get help with Stride It. FAQ, contact info, and everything you need to get started." />
+  <meta property="og:image" content="https://strideit.app/img/logo.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Support & FAQ — Stride It" />
+  <meta name="twitter:description" content="Get help with Stride It, the Apple Watch step tracker." />
+  <meta name="twitter:image" content="https://strideit.app/img/logo.png" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "url": "https://strideit.app/support.html",
+    "name": "Stride It Support & FAQ",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need an Apple Watch to use Stride It?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Stride It uses your Apple Watch as the primary step-tracking sensor. Compatible with Apple Watch Series 4 and later running watchOS 10 or above." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I install the app on my Apple Watch?",
+        "acceptedAnswer": { "@type": "Answer", "text": "After downloading Stride It on your iPhone, open the Watch app, scroll to find Stride It under Available Apps, and tap Install." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Stride It use HealthKit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Stride It reads step data from Apple HealthKit. We request read-only access. No personal data is stored on external servers." }
+      },
+      {
+        "@type": "Question",
+        "name": "When do step counts reset?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Step counts reset automatically at midnight (12:00 AM) according to your iPhone's local time zone, following Apple HealthKit's standard daily cycle." }
+      }
+    ]
+  }
+  </script>
+
   <link rel="icon" href="img/logo.png" type="image/png" />
   <link rel="stylesheet" href="styles.css" />
   <style>
@@ -262,6 +313,24 @@
     </div>
   </section>
 
+  <!-- ── Privacy link band ──────────────────────────────────── -->
+  <section style="padding: 0 0 80px;">
+    <div class="container">
+      <a href="privacy.html" style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 32px;background:var(--glass);border:1px solid var(--glass-border);border-radius:var(--radius-md);transition:border-color 0.3s;text-decoration:none;" onmouseover="this.style.borderColor='rgba(255,185,50,0.3)'" onmouseout="this.style.borderColor='var(--glass-border)'">
+        <div style="display:flex;align-items:center;gap:16px;">
+          <div style="width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,rgba(255,176,32,0.15),rgba(255,115,13,0.08));border:1px solid rgba(255,176,32,0.18);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;">🔒</div>
+          <div>
+            <p style="font-family:var(--font-head);font-size:15px;font-weight:600;margin-bottom:3px;">Privacy Policy</p>
+            <p style="font-size:13px;color:var(--text-sub);">Learn how Stride It handles your data and protects your privacy.</p>
+          </div>
+        </div>
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" style="flex-shrink:0;opacity:0.4;">
+          <path d="M7 5l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
   <hr class="divider" />
 
   <!-- ── Footer ─────────────────────────────────────────────── -->
@@ -276,6 +345,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
         </ul>
         <p class="footer-copy">© 2026 Stride It. All rights reserved.</p>
       </div>
